@@ -1,4 +1,124 @@
-.banner{
-    height: 100vh;
-    background-color: blueviolet;
-}
+ @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     font-family: "Azeret Mono", monospace;
+ }
+
+ .container {
+     max-width: 1280px;
+     margin: auto;
+ }
+
+
+ .primary-btn {
+     border-radius: 8px;
+     background: rgb(13, 19, 33);
+     font-weight: bold;
+     color: white;
+     padding: 10px 16px;
+     cursor:  pointer;
+ }
+
+ .outline-btn {
+     border-radius: 8px;
+     background: white;
+     font-weight: bold;
+     color: black;
+     border: 1px solid black;
+     padding: 10px 16px;
+     transition: all linear;
+     transition-duration: 500;
+     cursor:  pointer;
+ }
+
+ .outline-btn:hover {
+     background-color: rgb(13, 19, 33);
+     color: white;
+ }
+
+ /* banner section style starts here  */
+ .banner-container {
+     margin: 0 auto;
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-image: url("/images/Hero-bg.png");
+     background-origin: content;
+     background-repeat: no repeat;
+     background-size: cover;
+ }
+
+ .banner-content {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     width: 50%;
+     margin: auto;
+ }
+
+ .banner-content img {
+     margin-bottom: 20px;
+ }
+
+ .banner-content h2 {
+     margin-bottom: 20px;
+ }
+
+ .banner-content p {
+     margin-bottom: 20px;
+ }
+
+
+ /* Why web dev */
+
+ .why-web-dev-parent {
+     padding: 40px 0;
+     background: rgba(13, 19, 33, 0.02);
+ }
+
+ .why-web-dev-parent-intro {
+     text-align: center;
+     margin-bottom: 10px;
+     width: 50%;
+     margin: auto;
+ }
+
+
+ .why-web-dev-inner-div{
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+ }
+ .why-web-dev-inner-div p{
+    color: rgb(13, 19, 33);
+ }
+ .why-web-dev-1 div, .why-web-dev-3 div{
+    padding-right: 250px;
+ } 
+ .why-web-dev-2 div{
+    padding-left: 250px;
+ } 
+
+ .why-web-dev-inner-div h2{
+    margin-bottom: 15px;
+ }
+ .why-web-dev-inner-div p{
+    margin-bottom: 15px;
+ }
+
+
+
+
