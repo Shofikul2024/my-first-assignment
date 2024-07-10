@@ -58,7 +58,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     background-image: url("/images/Hero-bg.png");
+     background-image: url("../images/Hero-bg.png");
      background-origin: content;
      background-repeat: no repeat;
      background-size: cover;
@@ -196,7 +196,7 @@
 
  /* Support section */
  .support-parent {
-     background-image: url(/images/handshake.jpg) ;
+     background-image: url(../images/handshake.jpg) ;
      background-repeat: no-repeat;
      background-position: center;
      background-color: rgba(0, 0, 0, 0.646);
